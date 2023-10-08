@@ -6,3 +6,82 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 0 100px;
+    z-index: 100;
+}
+
+header h2{
+    margin-right: 170px;
+    font-size: 35px;
+}
+
+.link a{
+    text-decoration: none;
+    color: rgb(30, 161, 96);
+    font-weight: 650;
+    margin-left: 40px;
+    border-radius: 20px;
+    padding: 7px 10px;
+}
+
+.link a:hover,
+.link a.active{
+    background-color: rgb(30, 161, 96);
+    color: white;
+}
+
+.parallex{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text{
+    position: absolute;
+    font-size: 5em;
+    color: white;
+    text-shadow: 2px 2px 8px #7c7b7b;
+}
+
+.parallex img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    
+}
+
+.sec{
+    position: relative;
+    margin-top: 150px;
+    padding: 30px 100px;
+    background-color: #003329;
+}
+
+.sec h2{
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: rgb(177, 177, 177);
+}
+
+.sec p{
+    color: rgb(175, 173, 173);
+}
